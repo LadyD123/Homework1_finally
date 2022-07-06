@@ -1,0 +1,37 @@
+body {
+  background-color: WhiteSmoke;
+}
+
+.heading
+.Überschriften {
+  background-color: yellow;
+}
+
+h1 {
+  color: LightSeaGreen;
+  text-align: center;
+}
+
+h2 {
+  color: LightSeaGreen;
+  text-align: center;
+  img-align: center;
+}
+
+p {
+  font-family: times new roman;
+  font-size: 20px;
+  color: steelblue;
+  text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+

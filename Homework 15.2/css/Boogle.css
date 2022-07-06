@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 200vh;
+}
+
+.left{
+    display: flex;
+    background-color: #F0D794;
+    width: 15vw;
+    height: 190vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right{
+    display: flex;
+    background-color: #60BDBA;
+    width: 15vw;
+    height: 190vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 70vw;
+    height: 190vh;
+    align-items: center;
+}
+
+.form-signin {
+    width: 330px;
+    margin:10px;
+}
+
+/* putting input after class name defines
+the layout of the input fields inside
+the container */
+
+.form-signin input {
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+/* putting button after class name defines
+the layout of the input fields inside
+the container */
+
+.form-signin button {
+    width: 330px;
+}
